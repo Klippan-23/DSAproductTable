@@ -1,5 +1,7 @@
 # DSAproductTable
+
 Final project for the DS&amp;A course.
 
-# Documentation
+## Documentation
+
 This is the final projects documentation.
