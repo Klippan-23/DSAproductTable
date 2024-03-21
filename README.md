@@ -13,7 +13,7 @@ Final project for the DS&amp;A course.
 
 We can use lists stacks and queues for different kind of products, I.e., queues for managinig FIFO products, or stacks for products that don't mind waiting in shelves, and search algorithms to find the products themselves.
 
-### The class hash table has:
+### The class HashTable has:
 
 - **Arrays:** Used to create the table in self. table.
 - **Linear Search:** Used I.e., in the add function to check if the key already exist.
@@ -21,6 +21,16 @@ We can use lists stacks and queues for different kind of products, I.e., queues 
 - **Collision Resolving Method:** Chaining collision method, which uses buckets that uses a list of lists for saving objects that share a key.
 - **Linear Traversal:** In the show function, we use iteration to go over each linked hashtable and object.
 - **Recursive Traversal:** In the simple show function.
+
+### The class Product has:
+
+- **Implementing Basic Data Structures:** Implements a basic class structure in Python.
+- **Implementing Fundamental Algorithms:** The stock() and sell() methods implement basic algorithms for managing stock.
+
+### The class freshProduct has:
+
+- **Data Structures:** It implements a priority queue (heap) using heapq.
+- **Algorithms:** It implements operations for stock management like stock() and sell().
 
 ### Time complexity and space complexity:
 
