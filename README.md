@@ -3,28 +3,26 @@
 Final project for the DS&amp;A course.
 
 #### By:
-*Santeri*
-*Aryan*
-*Sebastian*
+*Santeri* | *Aryan* | *Sebastian*
 
 ## Documentation
 
 ### Project Topic:
 
-#### Store Inventory
+### Store Inventory
 
 We can use lists stacks and queues for different kind of products, I.e., queues for managinig FIFO products, or stacks for products that don't mind waiting in shelves, and search algorithms to find the products themselves.
 
-#### The class hash table has:
+### The class hash table has:
 
-**Arrays:** Used to create the table in self. table.
-**Linear Search:** Used I.e., in the add function to check if the key already exist.
-**Polymorphims:** Used I.e., in the search function, it acts differently depending on the nature of the object it encounters.
-**Collision Resolving Method:** Chaining collision method, which uses buckets that uses a list of lists for saving objects that share a key.
-**Linear Traversal:** In the show function, we use iteration to go over each linked hashtable and object.
-**Recursive Traversal:** In the simple show function.
+- **Arrays:** Used to create the table in self. table.
+- **Linear Search:** Used I.e., in the add function to check if the key already exist.
+- **Polymorphims:** Used I.e., in the search function, it acts differently depending on the nature of the object it encounters.
+- **Collision Resolving Method:** Chaining collision method, which uses buckets that uses a list of lists for saving objects that share a key.
+- **Linear Traversal:** In the show function, we use iteration to go over each linked hashtable and object.
+- **Recursive Traversal:** In the simple show function.
 
-#### Time complexity and space complexity:
+### Time complexity and space complexity:
 
 **Collision resolving method, chaining:** 
 Uses a complexity of O(n). This method is implemented in the hash function and inherited in every other function called in the class.
