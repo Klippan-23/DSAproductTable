@@ -17,15 +17,15 @@ We can use lists stacks and queues for different kind of products, I.e., queues 
 
 - **Arrays:** Used to create the table in self. table.
 - **Linear Search:** Used I.e., in the add function to check if the key already exist.
-- **Polymorphims:** Used I.e., in the search function, it acts differently depending on the nature of the object it encounters.
+- **Polymorphism:** Used I.e., in the search function, it acts differently depending on the nature of the object it encounters.
 - **Collision Resolving Method:** Chaining collision method, which uses buckets that uses a list of lists for saving objects that share a key.
 - **Linear Traversal:** In the show function, we use iteration to go over each linked hashtable and object.
 - **Recursive Traversal:** In the simple show function.
 
 ### The class Product has:
 
-- **Implementing Basic Data Structures:** Implements a basic class structure in Python.
-- **Implementing Fundamental Algorithms:** The stock() and sell() methods implement basic algorithms for managing stock.
+- **Basic Data Structures:** Implements a basic class structure in Python.
+- **Fundamental Algorithms:** The stock() and sell() methods implement basic algorithms for managing stock.
 
 ### The class freshProduct has:
 
