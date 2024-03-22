@@ -24,8 +24,8 @@ We can use lists stacks and queues for different kind of products, I.e., queues 
 
 ### The class Product has:
 
-- **Implementing Basic Data Structures:** Implements a basic class structure in Python.
-- **Implementing Fundamental Algorithms:** The stock() and sell() methods implement basic algorithms for managing stock.
+- **Basic Data Structures:** Implements a basic class structure in Python.
+- **Fundamental Algorithms:** The stock() and sell() methods implement basic algorithms for managing stock.
 
 ### The class freshProduct has:
 
