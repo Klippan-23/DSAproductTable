@@ -34,8 +34,17 @@ We can use lists stacks and queues for different kind of products, I.e., queues 
 
 ### Time complexity and space complexity:
 
-**Collision resolving method, chaining:** 
-Uses a complexity of O(n). This method is implemented in the hash function and inherited in every other function called in the class.
+**Hash table:** 
+The hash table is using chaining collision method, which has a time complexity of O(n). This method is implemented in the hash function and inherited in every other function called in the class.
 
-**Dynamic Size for space complexity:** 
-Chaining allows the hash table to potentially exceed its initial size in terms of the number of stored elements, as the lists can grow as needed to accommodate more entries. Furthermore, it is possible to make the table bigger (when creating it) to have better performance.
+Related to space complexity, chaining allows the hash table to potentially exceed its initial size in terms of the number of stored elements, as the lists can grow as needed to accommodate more entries. Furthermore, it is possible to make the table bigger (when creating it) to have better performance.
+
+Table lookup, when we have an object in the hash table, retrieving the values from the hash table has a complexity of O(1).
+
+**Binary Search Tree:**
+
+If the tress is balanced, the tree should have a time complexity of O(log n) both for insertion, deletion, and search functions. Related to space complexity, it is O(n).
+
+**Combined approach:**
+
+As we are using the BST O(log n) search function from the binary tree for finding a value, and then the O(1) time complexity to find the desired variables we are harnessing the strenghts of both classes.
